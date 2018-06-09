@@ -33,10 +33,12 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name}"
 		description="@{documented.description}"
 		datePublished="2018-06-09T00:15:56-0500"
+		dateModified="2018-06-09T16:05:06-0500"
 	>
 		<core:child page="changelog" />
 		<!-- TODO: Support relative book paths? -->
 		<core:child book="/ao-servlet-firewall/filter" page="/" />
+		<core:child book="/ao-servlet-firewall/path-space" page="/" />
 		<core:child book="/ao-servlet-firewall/rules" page="/" />
 		<core:child book="/ao-servlet-firewall/xml" page="/" />
 		<!-- TODO: Can we pass currentPage.property as all args at once - are they both maps? -->
@@ -64,6 +66,7 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		<section:section label="Modules">
 			<ul>
 				<li><core:link book="/ao-servlet-firewall/filter" page="/" /></li>
+				<li><core:link book="/ao-servlet-firewall/path-space" page="/" /></li>
 				<li><core:link book="/ao-servlet-firewall/rules" page="/" /></li>
 				<li><core:link book="/ao-servlet-firewall/xml" page="/" /></li>
 			</ul>
