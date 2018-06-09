@@ -7,3 +7,6 @@
 [submodule "rules"]
 	path = rules
 	url = git@github.com:aoindustries/ao-servlet-firewall-rules.git
+[submodule "path-space"]
+	path = path-space
+	url = git@github.com:aoindustries/ao-servlet-firewall-path-space.git
