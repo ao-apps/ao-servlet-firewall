@@ -10,3 +10,6 @@
 [submodule "path-space"]
 	path = path-space
 	url = git@github.com:aoindustries/ao-servlet-firewall-path-space.git
+[submodule "api"]
+	path = api
+	url = git@github.com:aoindustries/ao-servlet-firewall-api.git

@@ -47,6 +47,8 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 
 	<modules>
 		<module>book</module>
+		<module>api</module>
+		<module>api/book</module>
 		<module>filter</module>
 		<module>filter/book</module>
 		<module>path-space</module>
