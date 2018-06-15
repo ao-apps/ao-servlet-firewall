@@ -13,3 +13,6 @@
 [submodule "api"]
 	path = api
 	url = git@github.com:aoindustries/ao-servlet-firewall-api.git
+[submodule "virtual-hosts"]
+	path = virtual-hosts
+	url = git@github.com:aoindustries/ao-servlet-firewall-virtual-hosts.git
