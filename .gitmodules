@@ -16,3 +16,6 @@
 [submodule "virtual-hosts"]
 	path = virtual-hosts
 	url = git@github.com:aoindustries/ao-servlet-firewall-virtual-hosts.git
+[submodule "virtual-hosts-path-space"]
+	path = virtual-hosts-path-space
+	url = git@github.com:aoindustries/ao-servlet-firewall-virtual-hosts-path-space.git

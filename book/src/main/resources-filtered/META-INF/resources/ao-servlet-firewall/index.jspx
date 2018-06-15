@@ -33,7 +33,7 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name}"
 		description="@{documented.description}"
 		datePublished="2018-06-09T00:15:56-0500"
-		dateModified="2018-06-14T23:17:48-0500"
+		dateModified="2018-06-15T00:09:01-0500"
 	>
 		<core:child page="changelog" />
 		<!-- TODO: Support relative book paths? -->
@@ -71,7 +71,11 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 				<li><core:link book="/ao-servlet-firewall/filter" page="/" /></li>
 				<li><core:link book="/ao-servlet-firewall/path-space" page="/" /></li>
 				<li><core:link book="/ao-servlet-firewall/rules" page="/" /></li>
-				<li><core:link book="/ao-servlet-firewall/virtual-hosts" page="/" /></li>
+				<li><core:link book="/ao-servlet-firewall/virtual-hosts" page="/" />
+					<ul>
+						<li><core:link book="/ao-servlet-firewall/virtual-hosts/path-space" page="/" />
+					</ul>
+				</li>
 				<li><core:link book="/ao-servlet-firewall/xml" page="/" /></li>
 			</ul>
 		</section:section>
