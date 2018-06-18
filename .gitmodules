@@ -19,3 +19,6 @@
 [submodule "virtual-hosts-path-space"]
 	path = virtual-hosts-path-space
 	url = git@github.com:aoindustries/ao-servlet-firewall-virtual-hosts-path-space.git
+[submodule "webjars"]
+	path = webjars
+	url = git@github.com:aoindustries/ao-servlet-firewall-webjars.git

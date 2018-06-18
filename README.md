@@ -39,6 +39,7 @@ Aggregator POM for servlet-based application request filtering.
 * [AO Servlet Firewall Rules](https://aoindustries.com/ao-servlet-firewall/rules/)
 * [AO Servlet Firewall Virtual Hosts](https://aoindustries.com/ao-servlet-firewall/virtual-hosts/)
     * [AO Servlet Firewall Virtual Hosts Path Space](https://aoindustries.com/ao-servlet-firewall/virtual-hosts/path-space/)
+* [AO Servlet Firewall WebJars](https://aoindustries.com/ao-servlet-firewall/webjars/)
 * [AO Servlet Firewall XML](https://aoindustries.com/ao-servlet-firewall/xml/)
 
 ## Features
