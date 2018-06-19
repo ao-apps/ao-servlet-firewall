@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [AO Servlet Firewall](https://aoindustries.com/ao-servlet-firewall/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [AO Servlet Firewall](https://github.com/aoindustries/ao-servlet-firewall)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-alpha">
 		<img src="https://aoindustries.com/ao-badges/project-alpha.svg" alt="project: alpha" />
@@ -33,14 +33,14 @@ Aggregator POM for servlet-based application request filtering.
 * [GitHub](https://github.com/aoindustries/ao-servlet-firewall)
 
 ## Modules
-* [AO Servlet Firewall API](https://aoindustries.com/ao-servlet-firewall/api/)
-* [AO Servlet Firewall Filter](https://aoindustries.com/ao-servlet-firewall/filter/)
-* [AO Servlet Firewall Path Space](https://aoindustries.com/ao-servlet-firewall/path-space/)
-* [AO Servlet Firewall Rules](https://aoindustries.com/ao-servlet-firewall/rules/)
-* [AO Servlet Firewall Virtual Hosts](https://aoindustries.com/ao-servlet-firewall/virtual-hosts/)
-    * [AO Servlet Firewall Virtual Hosts Path Space](https://aoindustries.com/ao-servlet-firewall/virtual-hosts/path-space/)
-* [AO Servlet Firewall WebJars](https://aoindustries.com/ao-servlet-firewall/webjars/)
-* [AO Servlet Firewall XML](https://aoindustries.com/ao-servlet-firewall/xml/)
+* [AO Servlet Firewall API](https://github.com/aoindustries/ao-servlet-firewall-api)
+* [AO Servlet Firewall Filter](https://github.com/aoindustries/ao-servlet-firewall-filter)
+* [AO Servlet Firewall Path Space](https://github.com/aoindustries/ao-servlet-firewall-path-space)
+* [AO Servlet Firewall Rules](https://github.com/aoindustries/ao-servlet-firewall-rules)
+* [AO Servlet Firewall Virtual Hosts](https://github.com/aoindustries/ao-servlet-firewall-virtual-hosts)
+    * [AO Servlet Firewall Virtual Hosts Path Space](https://github.com/aoindustries/ao-servlet-firewall-virtual-hosts-path-space)
+* [AO Servlet Firewall WebJars](https://github.com/aoindustries/ao-servlet-firewall-webjars)
+* [AO Servlet Firewall XML](https://github.com/aoindustries/ao-servlet-firewall-xml)
 
 ## Features
 * TODO: Define features
