@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-servlet-firewall - Aggregator POM for servlet-based application request filtering.
-Copyright (C) 2018  AO Industries, Inc.
+Copyright (C) 2018, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -35,15 +35,15 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		datePublished="2018-06-09T00:15:56-0500"
 		dateModified="2018-06-18T14:27:49-0500"
 	>
-		<core:child page="changelog" />
+		<core:child page="changelog.jspx" />
 		<!-- TODO: Support relative book paths? -->
-		<core:child book="/ao-servlet-firewall/api" page="/" />
-		<core:child book="/ao-servlet-firewall/filter" page="/" />
-		<core:child book="/ao-servlet-firewall/path-space" page="/" />
-		<core:child book="/ao-servlet-firewall/rules" page="/" />
-		<core:child book="/ao-servlet-firewall/virtual-hosts" page="/" />
-		<core:child book="/ao-servlet-firewall/webjars" page="/" />
-		<core:child book="/ao-servlet-firewall/xml" page="/" />
+		<core:child book="/ao-servlet-firewall/api" page="/index.jspx" />
+		<core:child book="/ao-servlet-firewall/filter" page="/index.jspx" />
+		<core:child book="/ao-servlet-firewall/path-space" page="/index.jspx" />
+		<core:child book="/ao-servlet-firewall/rules" page="/index.jspx" />
+		<core:child book="/ao-servlet-firewall/virtual-hosts" page="/index.jspx" />
+		<core:child book="/ao-servlet-firewall/webjars" page="/index.jspx" />
+		<core:child book="/ao-servlet-firewall/xml" page="/index.jspx" />
 		<!-- TODO: Can we pass currentPage.property as all args at once - are they both maps? -->
 		<ao:include
 			page="/ao-badges/badges.inc.jspx"
@@ -60,25 +60,25 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		</p>
 		<section:section label="Project Links">
 			<ul>
-				<li><core:link page="/">Project Home</core:link></li>
-				<li><core:link page="changelog">Changelog</core:link></li>
+				<li><core:link page="index.jspx">Project Home</core:link></li>
+				<li><core:link page="changelog.jspx">Changelog</core:link></li>
 				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:section>
 		<section:section label="Modules">
 			<ul>
-				<li><core:link book="/ao-servlet-firewall/api" page="/" /></li>
-				<li><core:link book="/ao-servlet-firewall/filter" page="/" /></li>
-				<li><core:link book="/ao-servlet-firewall/path-space" page="/" /></li>
-				<li><core:link book="/ao-servlet-firewall/rules" page="/" /></li>
-				<li><core:link book="/ao-servlet-firewall/virtual-hosts" page="/" />
+				<li><core:link book="/ao-servlet-firewall/api" page="/index.jspx" /></li>
+				<li><core:link book="/ao-servlet-firewall/filter" page="/index.jspx" /></li>
+				<li><core:link book="/ao-servlet-firewall/path-space" page="/index.jspx" /></li>
+				<li><core:link book="/ao-servlet-firewall/rules" page="/index.jspx" /></li>
+				<li><core:link book="/ao-servlet-firewall/virtual-hosts" page="/index.jspx" />
 					<ul>
-						<li><core:link book="/ao-servlet-firewall/virtual-hosts/path-space" page="/" />
+						<li><core:link book="/ao-servlet-firewall/virtual-hosts/path-space" page="/index.jspx" />
 					</ul>
 				</li>
-				<li><core:link book="/ao-servlet-firewall/webjars" page="/" /></li>
-				<li><core:link book="/ao-servlet-firewall/xml" page="/" /></li>
+				<li><core:link book="/ao-servlet-firewall/webjars" page="/index.jspx" /></li>
+				<li><core:link book="/ao-servlet-firewall/xml" page="/index.jspx" /></li>
 			</ul>
 		</section:section>
 		<section:section label="Features">
