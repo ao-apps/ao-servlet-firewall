@@ -1,9 +1,6 @@
 [submodule "filter"]
 	path = filter
 	url = git@github.com:aoindustries/ao-servlet-firewall-filter.git
-[submodule "xml"]
-	path = xml
-	url = git@github.com:aoindustries/ao-servlet-firewall-xml.git
 [submodule "rules"]
 	path = rules
 	url = git@github.com:aoindustries/ao-servlet-firewall-rules.git

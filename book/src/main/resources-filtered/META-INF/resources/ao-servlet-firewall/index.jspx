@@ -43,7 +43,6 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		<core:child book="/ao-servlet-firewall/rules" page="/index.jspx" />
 		<core:child book="/ao-servlet-firewall/virtual-hosts" page="/index.jspx" />
 		<core:child book="/ao-servlet-firewall/webjars" page="/index.jspx" />
-		<core:child book="/ao-servlet-firewall/xml" page="/index.jspx" />
 		<header>
 			<!-- TODO: Can we pass currentPage.property as all args at once - are they both maps? -->
 			<ao:include
@@ -80,7 +79,6 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 					</ul>
 				</li>
 				<li><core:link book="/ao-servlet-firewall/webjars" page="/index.jspx" /></li>
-				<li><core:link book="/ao-servlet-firewall/xml" page="/index.jspx" /></li>
 			</ul>
 		</section:section>
 		<section:section label="Features">

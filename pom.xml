@@ -65,7 +65,5 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		<module>virtual-hosts-path-space/book</module>
 		<module>webjars</module>
 		<module>webjars/book</module>
-		<module>xml</module>
-		<module>xml/book</module>
 	</modules>
 </project>
