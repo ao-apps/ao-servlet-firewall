@@ -19,3 +19,6 @@
 [submodule "webjars"]
 	path = webjars
 	url = git@github.com:aoindustries/ao-servlet-firewall-webjars.git
+[submodule "bom"]
+	path = bom
+	url = git@aoindustries.github.com:aoindustries/ao-servlet-firewall-bom.git

@@ -33,6 +33,7 @@ Aggregator POM for servlet-based application request filtering.
 * [GitHub](https://github.com/aoindustries/ao-servlet-firewall)
 
 ## Modules
+* [AO Servlet Firewall BOM](https://github.com/aoindustries/ao-servlet-firewall-bom)
 * [AO Servlet Firewall API](https://github.com/aoindustries/ao-servlet-firewall-api)
 * [AO Servlet Firewall Filter](https://github.com/aoindustries/ao-servlet-firewall-filter)
 * [AO Servlet Firewall Path Space](https://github.com/aoindustries/ao-servlet-firewall-path-space)
