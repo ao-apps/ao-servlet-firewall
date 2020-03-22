@@ -1,24 +1,32 @@
 [submodule "filter"]
 	path = filter
 	url = git@github.com:aoindustries/ao-servlet-firewall-filter.git
+	branch = .
 [submodule "rules"]
 	path = rules
 	url = git@github.com:aoindustries/ao-servlet-firewall-rules.git
+	branch = .
 [submodule "path-space"]
 	path = path-space
 	url = git@github.com:aoindustries/ao-servlet-firewall-path-space.git
+	branch = .
 [submodule "api"]
 	path = api
 	url = git@github.com:aoindustries/ao-servlet-firewall-api.git
+	branch = .
 [submodule "virtual-hosts"]
 	path = virtual-hosts
 	url = git@github.com:aoindustries/ao-servlet-firewall-virtual-hosts.git
+	branch = .
 [submodule "virtual-hosts-path-space"]
 	path = virtual-hosts-path-space
 	url = git@github.com:aoindustries/ao-servlet-firewall-virtual-hosts-path-space.git
+	branch = .
 [submodule "webjars"]
 	path = webjars
 	url = git@github.com:aoindustries/ao-servlet-firewall-webjars.git
+	branch = .
 [submodule "bom"]
 	path = bom
 	url = git@aoindustries.github.com:aoindustries/ao-servlet-firewall-bom.git
+	branch = .
