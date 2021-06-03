@@ -22,7 +22,7 @@ You should have received a copy of the GNU Lesser General Public License
 along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 -->
 <jsp:root
-	xmlns:ao="https://aoindustries.com/ao-taglib/"
+	xmlns:ao="https://oss.aoapps.com/taglib/"
 	xmlns:core="https://semanticcms.com/core/taglib/"
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:section="https://semanticcms.com/section/taglib/"
@@ -34,17 +34,17 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name}"
 		description="@{documented.description}"
 		datePublished="2018-06-09T00:15:56-05:00"
-		dateModified="2020-03-24T14:01:33-05:00"
+		dateModified="2021-05-31T01:25:50-05:00"
 	>
 		<core:child page="changelog.jspx" />
 		<!-- TODO: Support relative book paths? -->
-		<core:child book="/ao-servlet-firewall/bom" page="/index.jspx" />
-		<core:child book="/ao-servlet-firewall/api" page="/index.jspx" />
-		<core:child book="/ao-servlet-firewall/filter" page="/index.jspx" />
-		<core:child book="/ao-servlet-firewall/path-space" page="/index.jspx" />
-		<core:child book="/ao-servlet-firewall/rules" page="/index.jspx" />
-		<core:child book="/ao-servlet-firewall/virtual-hosts" page="/index.jspx" />
-		<core:child book="/ao-servlet-firewall/webjars" page="/index.jspx" />
+		<core:child book="/servlet-firewall/bom" page="/index.jspx" />
+		<core:child book="/servlet-firewall/api" page="/index.jspx" />
+		<core:child book="/servlet-firewall/filter" page="/index.jspx" />
+		<core:child book="/servlet-firewall/path-space" page="/index.jspx" />
+		<core:child book="/servlet-firewall/rules" page="/index.jspx" />
+		<core:child book="/servlet-firewall/virtual-hosts" page="/index.jspx" />
+		<core:child book="/servlet-firewall/webjars" page="/index.jspx" />
 		<header>
 			<!-- TODO: Can we pass currentPage.property as all args at once - are they both maps? -->
 			<ao:include
@@ -71,17 +71,17 @@ along with ao-servlet-firewall.  If not, see <http://www.gnu.org/licenses />.
 		</section:nav>
 		<section:section label="Modules">
 			<ul>
-				<li><core:link book="/ao-servlet-firewall/bom" page="/index.jspx" /></li>
-				<li><core:link book="/ao-servlet-firewall/api" page="/index.jspx" /></li>
-				<li><core:link book="/ao-servlet-firewall/filter" page="/index.jspx" /></li>
-				<li><core:link book="/ao-servlet-firewall/path-space" page="/index.jspx" /></li>
-				<li><core:link book="/ao-servlet-firewall/rules" page="/index.jspx" /></li>
-				<li><core:link book="/ao-servlet-firewall/virtual-hosts" page="/index.jspx" />
+				<li><core:link book="/servlet-firewall/bom" page="/index.jspx" /></li>
+				<li><core:link book="/servlet-firewall/api" page="/index.jspx" /></li>
+				<li><core:link book="/servlet-firewall/filter" page="/index.jspx" /></li>
+				<li><core:link book="/servlet-firewall/path-space" page="/index.jspx" /></li>
+				<li><core:link book="/servlet-firewall/rules" page="/index.jspx" /></li>
+				<li><core:link book="/servlet-firewall/virtual-hosts" page="/index.jspx" />
 					<ul>
-						<li><core:link book="/ao-servlet-firewall/virtual-hosts/path-space" page="/index.jspx" /></li>
+						<li><core:link book="/servlet-firewall/virtual-hosts/path-space" page="/index.jspx" /></li>
 					</ul>
 				</li>
-				<li><core:link book="/ao-servlet-firewall/webjars" page="/index.jspx" /></li>
+				<li><core:link book="/servlet-firewall/webjars" page="/index.jspx" /></li>
 			</ul>
 		</section:section>
 		<section:section label="Features">
