@@ -32,9 +32,6 @@ along with ao-servlet-firewall.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.aoapps</groupId><artifactId>ao-servlet-firewall</artifactId><version>0.2.0-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>AO Servlet Firewall</name>
   <url>https://oss.aoapps.com/servlet-firewall/</url>
   <description>Aggregator POM for servlet-based application request filtering.</description>
