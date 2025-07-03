@@ -21,7 +21,7 @@ Aggregator POM for servlet-based application request filtering.
 ## Project Links
 * [Project Home](https://oss.aoapps.com/servlet-firewall/)
 * [Changelog](https://oss.aoapps.com/servlet-firewall/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-servlet-firewall)
+* [Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-servlet-firewall)
 * [GitHub](https://github.com/ao-apps/ao-servlet-firewall)
 
 ## Modules
