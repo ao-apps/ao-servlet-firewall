@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-servlet-firewall - Aggregator POM for servlet-based application request filtering.
-Copyright (C) 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
+Copyright (C) 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -104,22 +104,13 @@ along with ao-servlet-firewall.  If not, see <https://www.gnu.org/licenses/>.
   </repositories>
 
   <modules>
-    <module>book</module>
     <module>bom</module>
-    <module>bom/book</module>
     <module>api</module>
-    <module>api/book</module>
     <module>filter</module>
-    <module>filter/book</module>
     <module>path-space</module>
-    <module>path-space/book</module>
     <module>rules</module>
-    <module>rules/book</module>
     <module>virtual-hosts</module>
-    <module>virtual-hosts/book</module>
     <module>virtual-hosts-path-space</module>
-    <module>virtual-hosts-path-space/book</module>
     <module>webjars</module>
-    <module>webjars/book</module>
   </modules>
 </project>
