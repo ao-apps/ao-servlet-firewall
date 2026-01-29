@@ -22,3 +22,6 @@
 
 # Added all whitespace-only commits to .git-blame-ignore-revs
 65163e07077ba189303bf25917eb6cf6887fdfba
+
+# Workaround javadoc reproducibility limitations/bugs
+f866040307dc34be7492588ee2780c1fa6d0fe75
